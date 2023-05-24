@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.con {
+    background: rgb(0, 0, 0, .7)url('images/1.webp');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    /* background-color: ; */
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 25px;
+    }
+
+    .cre {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .about {
+        width: 100vw
+    }
+    .waht{
+        font-size: 20px;
+    }
+}
