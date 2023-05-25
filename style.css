@@ -37,3 +37,9 @@ nav {
         font-size: 20px;
     }
 }
+.hov{
+    cursor: pointer;
+}
+.hov:hover{
+    color: rgb(30,48,80);
+}
